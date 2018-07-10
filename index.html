@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Turncolour 教程</h2>
+
+        <div>
+            <h4>1、随机文字颜色</h4>
+            <p id = 'text'>
+                问君能有几多愁，恰似一江春生向东流
+            </p>
+            <input type="button" value='reset' id='reset' />
+        </div>
+
+        <div>
+            <h4>1、随机文字颜色</h4>
+            <p >
+                Hello Word
+            </p>
+            <input type="button" value='reset' id='reset' />
+        </div>
+
+    </div>
+</body>
+<script src="Turncolour.min.js"></script>
+<script>
+    console.log(ChangeColor('#text' , true));
+    // var testBox = document.getElementById('text');
+    // var text = testBox.textContent;
+    // var reg = /\S+/;
+    // var newStr = reg.exec(text)[0];
+
+    // var resetBtn = document.getElementById('reset');
+    // // console.log(newStr.length)
+    // function randomColorBlack(){
+    //     return color = '#' + Math.floor(Math.random()*256).toString(10);
+    // }
+
+    // function randomColorWidth(){
+    //     return '#'+Math.floor(Math.random()*0xffffff).toString(16);
+    // }
+
+    // function setTextColor(str){
+    //     var i , len = str.length || str;
+    //     var arr = []
+    //     for(i = 0 ; i < len ; i ++ ){
+    //         arr[i] = '<b style = "color:'+ randomColorWidth() +'">'+str[i]+'</b>';
+    //     }    
+    //     return arr; 
+    // }
+    
+    // var time = null;
+    
+    // resetBtn.onclick = function(event){
+    // //    testBox.innerHTML = text.replace(/\S+/g,setTextColor(newStr).join(''));
+    //     time && clearInterval(time);
+    //     time = setInterval(function(){
+    //         testBox.innerHTML = text.replace(/\S+/g,setTextColor(newStr).join(''));
+    //     },500)
+    // }
+
+    // var p1 = setTextColor(newStr);
+    // testBox.innerHTML = text.replace(/\S+/g,p1.join(''));
+    // console.log(ChangeColor);
+    
+</script>
+</html>
